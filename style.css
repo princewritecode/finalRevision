@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+#heading {
+  color: red;
+}
+#para {
+  color: blue;
+}
+#btn-submit {
+  display: block;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: 1px solid blue;
+}
+table {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+}
+td {
+  border: 1px solid black;
+}
+
+p {
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: #fb7185;
+  padding: 1em;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/* END OF BASE STYLES */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
