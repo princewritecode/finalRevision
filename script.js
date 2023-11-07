@@ -1,3 +1,4 @@
+'use strict';
 // all about javscript
 
 console.log(0 / 0);
@@ -39,3 +40,11 @@ console.log(Number(x), typeof x);
 let num1 = Number(prompt());
 let num2 = Number(prompt());
 document.write(num1 + num2);
+// why not use , instead use var on every
+
+// hoisting
+
+str = 'Hoisting';
+console.log(str);
+
+var str;
