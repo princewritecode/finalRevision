@@ -28,5 +28,14 @@ c = a;
 a = b;
 b = c;
 a;
-b
+b;
 
+var x = '-50.6';
+x = Number(x);
+console.log(typeof x);
+console.log(Number(x), typeof x);
+// program takes two integer and output their sum
+
+let num1 = Number(prompt());
+let num2 = Number(prompt());
+document.write(num1 + num2);
