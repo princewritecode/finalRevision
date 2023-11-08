@@ -48,3 +48,17 @@ str = 'Hoisting';
 console.log(str);
 
 var str;
+
+// question
+
+function abc() {
+    console.log(a);
+    var a = 10;
+}
+abc();
+// autoboxing
+
+var str = 'Autoboxing';
+var strBoxed = new String(str);
+console.log(strBoxed.length);
+strBoxed = undefined;
