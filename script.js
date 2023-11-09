@@ -72,3 +72,10 @@ let number3 = Number(prompt());
 
 let arr = [number1, number2, number3];
 console.log(arr.sort(function (number1, number2) { return number1 - number2; }));
+
+// control flow
+//iteration
+let i = 0;
+for (i; i <= 20; i++) {
+    console.log(i);
+}
