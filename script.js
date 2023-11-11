@@ -74,17 +74,62 @@
 
 //function to find given value in array
 
-const arrGiven = [22, 33, 44, 55];
-const value = Number(prompt("enter value to check"));
-function findValue(valueGiven) {
-    console.log('function ran');
-    for (let i of arrGiven) {
-        if (i === value) {
-            console.log('value found');
-            return true;
-        }
-    }
-    console.log('value not found');
-    return false;
-};
-findValue(value);
+// const arrGiven = [22, 33, 44, 55];
+// const value = Number(prompt("enter value to check"));
+// function findValue(valueGiven) {
+//     console.log('function ran');
+//     for (let i of arrGiven) {
+//         if (i === value) {
+//             console.log('value found');
+//             return true;
+//         }
+//     }
+//     console.log('value not found');
+//     return false;
+// };
+// findValue(value);
+
+// function to compute the factorial of given number
+
+// function factorial(number) {
+//     let fact = 1;
+//     for (let i = 1; i <= number; i++) {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+// console.log(factorial(4));
+
+
+// function factorial(numbers) {
+//     let fact = 1;
+//     for (let i = 1; i <= numbers; i++) {
+//         fact *= i;
+//     }
+//     return fact;
+// }
+// console.log(factorial(5));
+
+//Create a program that allows the user to choose from a given range of arithmetic operations, and then performs that operation on two input numbers.
+
+let number1 = Number(prompt("Enter number one"));
+let number2 = Number(prompt("Enter number two"));
+let expression = prompt("Enter operator");
+
+switch (expression) {
+    case ("+"):
+        console.log(number1 + number2);
+        break;
+    case ("-"):
+        console.log(number1 - number2);
+        break;
+    case ("*"):
+        console.log(number1 * number2);
+        break;
+    case ("/"):
+        console.log(number1 / number2);
+        break;
+    default:
+        console.log("invalid operator");
+        break;
+}
