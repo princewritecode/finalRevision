@@ -112,24 +112,40 @@
 
 //Create a program that allows the user to choose from a given range of arithmetic operations, and then performs that operation on two input numbers.
 
-let number1 = Number(prompt("Enter number one"));
-let number2 = Number(prompt("Enter number two"));
-let expression = prompt("Enter operator");
+// let number1 = Number(prompt("Enter number one"));
+// let number2 = Number(prompt("Enter number two"));
+// let expression = prompt("Enter operator");
+// switch (expression) {
+//     case ("+"):
+//         console.log(number1 + number2);
+//         break;
+//     case ("-"):
+//         console.log(number1 - number2);
+//         break;
+//     case ("*"):
+//         console.log(number1 * number2);
+//         break;
+//     case ("/"):
+//         console.log(number1 / number2);
+//         break;
+//     default:
+//         console.log("invalid operator");
+//         break;
+// }
 
-switch (expression) {
-    case ("+"):
-        console.log(number1 + number2);
-        break;
-    case ("-"):
-        console.log(number1 - number2);
-        break;
-    case ("*"):
-        console.log(number1 * number2);
-        break;
-    case ("/"):
-        console.log(number1 / number2);
-        break;
-    default:
-        console.log("invalid operator");
-        break;
+//check for pallindrome
+
+function pallindrome(letter) {
+    let newStr = '';
+    for (let i = letter.length - 1; i >= 0; i--) {
+        newStr += letter[i];
+    }
+    console.log(newStr);
+    if (newStr === letter) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
+console.log(pallindrome('ada'));
