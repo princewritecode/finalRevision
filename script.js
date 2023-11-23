@@ -135,17 +135,41 @@
 
 //check for pallindrome
 
-function pallindrome(letter) {
-    let newStr = '';
-    for (let i = letter.length - 1; i >= 0; i--) {
-        newStr += letter[i];
-    }
-    console.log(newStr);
-    if (newStr === letter) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
-console.log(pallindrome('ada'));
+// function pallindrome(letter) {
+//     let newStr = '';
+//     for (let i = letter.length - 1; i >= 0; i--) {
+//         newStr += letter[i];
+//     }
+//     console.log(newStr);
+//     if (newStr === letter) {
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// console.log(pallindrome('ada'));
+
+
+// function foo() {
+//     var x = 10;
+
+//     function bar() {
+//         console.log(x);
+//     }
+//     bar();
+// }
+// foo();
+
+//primitve data type doesn't have properties
+
+let str = 'prince';
+console.log(str.length);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.charAt(0));
+console.log(str.indexOf('n'));
+console.log(str.lastIndexOf('n'));
+console.log(str.includes('n'));
+console.log(str.slice(0, 3));
+console.log(str.substring(0, 3));
