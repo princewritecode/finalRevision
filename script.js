@@ -173,3 +173,46 @@ console.log(str.lastIndexOf('n'));
 console.log(str.includes('n'));
 console.log(str.slice(0, 3));
 console.log(str.substring(0, 3));
+console.log(str.substr(0, 3));
+console.log(str.replace('n', 'a'));
+console.log(str.trim());
+console.log(str.split(''));
+console.log(str.split(' '));
+console.log(str.split('n'));
+console.log(str.split('n', 2));
+console.log(str.repeat(2));
+
+
+//function to check if item exist in the array or not
+
+function checkItem(arr, item) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === item) {
+            return true;
+        }
+    }
+    return false;
+}
+
+console.log(checkItem([1, 2, 3, 4], 5));
+
+
+
+//factorial of a number
+
+function factorial(num) {
+    let factorial = 1;
+    if (num == 0) {
+        return 1;
+    }
+    else {
+        for (let i = num; num > 0; num--) {
+            factorial *= num;
+        }
+        return factorial;
+    }
+}
+console.log(factorial(0));
+//more small and forming good coding concepts
+
+
