@@ -216,3 +216,40 @@ console.log(factorial(0));
 //more small and forming good coding concepts
 
 
+//all about numbers in javascript
+
+//In this exercise, you have to create a function min() to find and return the minimum element of a given array of numbers.
+
+function min(arr) {
+    let min = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    return min;
+}
+console.log(min([44, 66, 77]));
+
+
+console.log(1.2386.toPrecision(2));
+console.log(1.2386.toPrecision(3));
+console.log(1.2386.toPrecision(4));
+
+//bitwise not operator create function where 0 becomes 1 and 1 becomes 0
+
+function bitwiseNot(str) {
+    let outPutStr = "";
+
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === '0') {
+            outPutStr += '1';
+        }
+        else {
+            outPutStr += '0';
+        }
+    }
+    return outPutStr;
+}
+
+console.log(bitwiseNot('101'));
