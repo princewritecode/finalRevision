@@ -251,5 +251,28 @@ function bitwiseNot(str) {
     }
     return outPutStr;
 }
-
 console.log(bitwiseNot('101'));
+
+
+// function add(x, y) {
+//     console.log(arguments);
+//     return x + y;
+
+// }
+// add(22, 23);
+
+function hyphenSplit(string) {
+    return string.split('-').join(' ');
+}
+console.log(hyphenSplit('22-23-24'));
+console.log('Food'.endsWith('d'));
+
+
+var strCat = "I love cats!";
+console.log(str.indexOf("c"));
+
+var strIndex = "Twice a day";
+var index = str.indexOf("a");
+var index2 = str.lastIndexOf("a");
+console.log(str.indexOf("a"));
+console.log(str.indexOf("a", index + 1) === index2);
