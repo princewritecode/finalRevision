@@ -281,4 +281,16 @@ console.log(str.indexOf("a", index + 1) === index2);
 
 for (let i=0 ; i<10 ; i++){
     console.log(i)
+    i=10
+}
+
+var nums = [1, 10, 5, -9, -1];
+// for (var i = 0; i < nums.length; i++) {
+//    console.log('nums[' + i + ']: ' + nums[i]);
+// }
+
+//now log numbers in reverse order 
+
+for (let t= nums.length-1 ; t >0 ; t--){
+    console.log( 'nums['+t+']:' + nums[t] )
 }
