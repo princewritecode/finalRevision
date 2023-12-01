@@ -276,3 +276,9 @@ var index = str.indexOf("a");
 var index2 = str.lastIndexOf("a");
 console.log(str.indexOf("a"));
 console.log(str.indexOf("a", index + 1) === index2);
+
+//for loop 
+
+for (let i=0 ; i<10 ; i++){
+    console.log(i)
+}
