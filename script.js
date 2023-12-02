@@ -294,3 +294,38 @@ var nums = [1, 10, 5, -9, -1];
 for (let t= nums.length-1 ; t >0 ; t--){
     console.log( 'nums['+t+']:' + nums[t] )
 }
+
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+       console.log(`(${i}, ${j})`);
+    }
+ }
+
+ for (var i = 0; i < 5; i++) {
+    console.log(i);
+ 
+    if (i === 2) {
+       break;
+    }
+ }
+
+
+ let numbers = [1, 4, 3, 2, 5];
+
+for (let i = 0; i < numbers.length && nums[i] % 2 !== 0; i++) {
+   console.log(nums[i],'get it');
+}
+
+//multiply every element in array
+
+let numberGot = [1, 5, 70, -2, -1, -0.5];
+let multiply = 1;
+
+for (let i =0 ; i < numberGot.length ; i++){
+    multiply*=numberGot[i];
+}
+
+Math.abs(multiply);
+
+console.log(multiply);
+
